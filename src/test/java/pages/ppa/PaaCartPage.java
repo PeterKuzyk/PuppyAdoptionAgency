@@ -12,7 +12,6 @@ public class PaaCartPage extends Page {
     @FindBy(xpath = "//input[@value='Complete the Adoption']")
     private WebElement complete;
 
-
     public boolean soppingCardHeader() {
         if (!pageHeader.isDisplayed()) {
             return false;
@@ -32,6 +31,4 @@ public class PaaCartPage extends Page {
     public void clickCompleteAdoption(String value) {
         getByXpath("//input[@value='" + value + "']").click();
     }
-
-
 }

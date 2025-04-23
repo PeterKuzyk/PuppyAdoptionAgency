@@ -41,6 +41,4 @@ public class PaaOrderFormPage extends Page {
     public void placeOrder() {
         submit.click();
     }
-
-
 }

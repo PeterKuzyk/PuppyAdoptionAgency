@@ -37,10 +37,7 @@ public class TestContext {
 
     private static WebDriver driver;
     private static String timeStamp;
-
-
     private static Map<String, Object> testData = new HashMap<>();
-
     public static Map<String, Object> getTestDataMap(String key) {
         return (Map<String, Object>) testData.get(key);
     }
@@ -77,7 +74,6 @@ public class TestContext {
 
     public static WebDriverWait getWait() {
         return new WebDriverWait(getDriver(), 15);
-
     }
 
     public static WebDriverWait getWait(int timeout) {
@@ -94,7 +90,6 @@ public class TestContext {
 
     public static void initialize() {
          initialize("chrome", "local", false);
-
     }
 
     public static void teardown() {
