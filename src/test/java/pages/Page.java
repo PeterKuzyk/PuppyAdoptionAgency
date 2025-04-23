@@ -78,7 +78,3 @@ public class Page {
         getDriver().switchTo().alert().accept();
     }
 }
-
-
-
-

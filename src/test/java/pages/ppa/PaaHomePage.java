@@ -40,6 +40,4 @@ public class PaaHomePage extends Page {
     public void orderPleasedSuccessfully(String value) {
         Assert.assertEquals(thankYou.getText(), value);
     }
-
-
 }

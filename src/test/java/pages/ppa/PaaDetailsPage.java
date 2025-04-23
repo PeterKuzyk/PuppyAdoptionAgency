@@ -16,9 +16,7 @@ public class PaaDetailsPage extends Page {
             return true;
         }
     }
-
     public void clickAdoptMe() {
         button.click();
     }
-
 }
